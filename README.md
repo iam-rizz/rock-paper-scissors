@@ -346,7 +346,7 @@ Game ini mendemonstrasikan implementasi modern dari game klasik dengan:
 **Perfect untuk portfolio, pembelajaran, atau just for fun!** 🎯
 
 ### 🔗 **Quick Links**
-- 🎮 [Play the Game](./index.html)
+- 🎮 [Play the Game](https://iam-rizz.github.io/rock-paper-scissors/)
 - 📖 [View Source](https://github.com/iam-rizz/rock-paper-scissors)
 - 🐛 [Report Issues](https://github.com/iam-rizz/rock-paper-scissors/issues)
 - ⭐ [Star on GitHub](https://github.com/iam-rizz/rock-paper-scissors)

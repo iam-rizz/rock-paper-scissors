@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Game Gunting Batu Kertas - Mainkan game klasik melawan komputer">
+    <meta name="keywords" content="game, gunting batu kertas, rock paper scissors">
+    <title>Game Gunting Batu Kertas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Gunting Batu Kertas 🎮</h1>
+            <p>Pilih senjata Anda dan lawan komputer!</p>
+        </header>
+
+        <div class="score-board">
+            <div class="score">
+                <div class="player-score">
+                    <h3>Anda</h3>
+                    <span id="player-score">0</span>
+                </div>
+                <div class="computer-score">
+                    <h3>Komputer</h3>
+                    <span id="computer-score">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="choices">
+                <div class="choice-section">
+                    <h4>Pilihan Anda:</h4>
+                    <div class="player-choice">
+                        <span id="player-choice-display">❓</span>
+                    </div>
+                </div>
+                
+                <div class="vs">VS</div>
+                
+                <div class="choice-section">
+                    <h4>Pilihan Komputer:</h4>
+                    <div class="computer-choice">
+                        <span id="computer-choice-display">❓</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result">
+                <h3 id="result-message">Pilih untuk memulai!</h3>
+            </div>
+
+            <div class="buttons">
+                <button class="choice-btn" data-choice="rock">
+                    <span class="emoji">🗿</span>
+                    <span class="text">Batu</span>
+                </button>
+                <button class="choice-btn" data-choice="paper">
+                    <span class="emoji">📄</span>
+                    <span class="text">Kertas</span>
+                </button>
+                <button class="choice-btn" data-choice="scissors">
+                    <span class="emoji">✂️</span>
+                    <span class="text">Gunting</span>
+                </button>
+            </div>
+
+            <div class="controls">
+                <button id="reset-btn" class="reset-btn">Reset Game</button>
+            </div>
+        </div>
+
+        <div class="rules">
+            <h4>Aturan:</h4>
+            <ul>
+                <li>🗿 Batu mengalahkan ✂️ Gunting</li>
+                <li>✂️ Gunting mengalahkan 📄 Kertas</li>
+                <li>📄 Kertas mengalahkan 🗿 Batu</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -109,9 +109,7 @@ Rock paper scissors/
 ├── index.html              # Main HTML dengan semantic structure
 ├── style.css               # Advanced CSS dengan glassmorphism
 ├── script.js               # Modern JavaScript dengan ES6+
-├── README.md               # Comprehensive documentation
-└── .github/
-    └── copilot-instructions.md  # Development guidelines
+└── README.md               # Comprehensive documentation
 ```
 
 ## 🎨 CSS Features Detail
